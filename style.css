@@ -1,0 +1,28 @@
+/* Seth Shields Module 6 6/25/26 */
+
+/* Page background + Text Colors*/
+body {
+    background-color: #000000da;
+    color: #ffffff;
+    font-family: Arial;
+}
+
+/* Heading Color */
+h1 {
+    color: #e70000;
+}
+
+/* Paragraph Style*/
+p {
+    font-family: Arial;
+}
+
+/* Topic Heading */
+h2 {
+    color: #c00000;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+}
