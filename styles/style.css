@@ -1,0 +1,57 @@
+/* Seth Shields Module 7 7/5/26 */
+
+/* Page background + Text Colors*/
+body {
+    background-color: #000000da;
+    color: #ffffff;
+    font-family: Arial;
+}
+
+/* Heading Color */
+h1 {
+    color: #e70000;
+}
+
+/* Paragraph Style*/
+p {
+    font-family: Arial;
+}
+
+/* Topic Heading */
+h2 {
+    color: #c00000;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+}
+
+/* Module 7 Box Styles */
+header {
+    padding: 15px;
+    border-bottom: 2px solid #c00000;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+nav {
+    padding: 10px;
+    border-bottom: 1px solid #666666;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #666666;
+}
+
+img {
+    max-width: 100%;
+    border: 2px solid #c00000;
+    padding: 5px;
+}
