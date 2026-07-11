@@ -1,4 +1,4 @@
-/* Seth Shields Module 7 7/5/26 */
+/* Seth Shields Module 8 7/9/26 */
 
 /* Page background + Text Colors*/
 body {
@@ -27,21 +27,25 @@ a {
     color: #0066cc;
 }
 
-/* Module 7 Box Styles */
+/* Module 7 Box Styles with Module 8 added*/
 header {
     padding: 15px;
     border-bottom: 2px solid #c00000;
+    border-radius: 10px;
 }
 
 main {
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #333333;
 }
 
 nav {
     padding: 10px;
     border-bottom: 1px solid #666666;
+    position: relative;
 }
 
 footer {
@@ -54,4 +58,7 @@ img {
     max-width: 100%;
     border: 2px solid #c00000;
     padding: 5px;
+    border-radius: 10px
 }
+
+
