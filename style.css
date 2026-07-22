@@ -1,4 +1,4 @@
-/* Seth Shields Module 6 6/25/26 */
+/* Seth Shields Module 7 7/5/26 */
 
 /* Page background + Text Colors*/
 body {
@@ -25,4 +25,132 @@ h2 {
 /* Links */
 a {
     color: #0066cc;
+}
+
+/* Module 7 Box Styles */
+header {
+    padding: 15px;
+    border-bottom: 2px solid #c00000;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+nav {
+    padding: 10px;
+    border-bottom: 1px solid #666666;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #666666;
+}
+
+img {
+    max-width: 100%;
+    border: 2px solid #c00000;
+    padding: 5px;
+}
+
+/* Module 9 */
+#wrapper {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background-color: #111111;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(0,0,0,.4);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #c00000;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 1;
+    min-width: 200px;
+    padding: 15px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+
+/* Module 10 */
+
+img {
+ max-width: 100%;
+ height: auto;
+}
+
+iframe {
+ max-width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+ #wrapper {
+ width: 95%;
+ margin: 15px auto;
+ }
+ .layout {
+ flex-direction: column;
+ }
+ .cards {
+ flex-direction: column;
+ }
+}
+
+@media only screen and (max-width: 600px) {
+ #wrapper {
+ width: 100%;
+ margin: 0;
+ border-radius: 0;
+ box-shadow: none;
+ }
+ nav ul {
+ flex-direction: column;
+ }
+ nav a {
+ display: block;
+ text-align: center;
+ padding: 12px;
+ }
+ .layout {
+ flex-direction: column;
+ padding: 12px;
+ gap: 12px;
+ }
+ .cards {
+ flex-direction: column;
+ }
 }
