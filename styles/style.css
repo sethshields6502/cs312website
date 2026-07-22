@@ -106,3 +106,51 @@ nav a:focus {
     border-radius: 10px;
 }
 
+/* Module 10 */
+
+img {
+ max-width: 100%;
+ height: auto;
+}
+
+iframe {
+ max-width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+ #wrapper {
+ width: 95%;
+ margin: 15px auto;
+ }
+ .layout {
+ flex-direction: column;
+ }
+ .cards {
+ flex-direction: column;
+ }
+}
+
+media only screen and (max-width: 600px) {
+ #wrapper {
+ width: 100%;
+ margin: 0;
+ border-radius: 0;
+ box-shadow: none;
+ }
+ nav ul {
+ flex-direction: column;
+ }
+ nav a {
+ display: block;
+ text-align: center;
+ padding: 12px;
+ }
+ .layout {
+ flex-direction: column;
+ padding: 12px;
+ gap: 12px;
+ }
+ .cards {
+ flex-direction: column;
+ }
+}
